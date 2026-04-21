@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Diseño Web en Murcia | WebMasters Pro</title>
   <meta
     name="description"
@@ -36,9 +37,11 @@
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a href="#inicio" class="brand text-brand" aria-label="WebMasters Pro inicio">
-  WebMasters Pro
-</a>
+      <a href="#inicio" class="brand">
+      <a href="#inicio" class="brand" aria-label="WebMasters Pro inicio">
+        <img src="webmasterpro.png" alt="WebMasters Pro" class="brand-logo" />
+      </a>
+
       <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
         <span></span>
         <span></span>
@@ -278,6 +281,7 @@
           <details class="faq-item">
             <summary>¿Podéis orientarla a Murcia?</summary>
             <p>
+              Sí. De hecho, recomendamos empezar con una base local para Murcia y después ampliar
               Sí. Recomendamos empezar con una base local para Murcia y después ampliar
               a más ciudades o servicios si hace falta.
             </p>
@@ -347,6 +351,7 @@
 
           <div class="form-group">
             <label for="negocio">Negocio o sector</label>
+            <input type="text" id="negocio" name="negocio" placeholder="Ej: cerrajería, clínica, reformas..." required />
             <input type="text" id="negocio" name="negocio" placeholder="Ej: clínica, reformas, tienda..." required />
           </div>
 
@@ -389,4 +394,5 @@
 
   <script src="script.js"></script>
 </body>
+</html>
 </html>
