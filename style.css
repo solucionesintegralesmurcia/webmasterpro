@@ -753,9 +753,12 @@ body {
   }
 
   .text-brand {
-    font-size: 1.05rem;
-    white-space: nowrap;
-  }
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.4px;
+  white-space: nowrap;
+}
 
   .menu-toggle {
     margin-left: 12px;
