@@ -1166,3 +1166,22 @@ img {
     border-radius: 16px;
   }
 }
+@media (max-width: 768px) {
+  .hero-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-text {
+    order: 1;
+  }
+
+  .hero-image {
+    order: 2;
+    margin: 20px 0;
+  }
+
+  .hero-card {
+    order: 3;
+  }
+}
