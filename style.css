@@ -1185,3 +1185,43 @@ img {
     order: 3;
   }
 }
+/* ARREGLO HERO MÓVIL DEFINITIVO */
+@media (max-width: 768px) {
+  .hero-grid {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .hero-text {
+    order: 1 !important;
+  }
+
+  .hero-card {
+    order: 2 !important;
+    margin-top: 26px;
+  }
+
+  /* Oculta la oferta del hero solo en móvil */
+  .hero-offer-box {
+    display: none !important;
+  }
+
+  .hero-image {
+    width: 100%;
+    margin: 0 !important;
+    border-radius: 18px;
+  }
+
+  .hero-points {
+    margin-top: 22px;
+    margin-bottom: 0;
+  }
+
+  .hero {
+    padding-bottom: 42px;
+  }
+
+  #servicios {
+    padding-top: 54px;
+  }
+}
