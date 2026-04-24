@@ -1050,3 +1050,8 @@ img {
 #scrollTopBtn:hover {
   transform: translateY(-3px);
 }
+@media (max-width: 768px) {
+  .whatsapp-float {
+    display: none !important;
+  }
+}
